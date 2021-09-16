@@ -155,7 +155,7 @@ let getSurveyData = () => {
 	data["state"] ? solutionString += "&state=" + data["state"] : "";
 	// window.location = `${SITE}/${solutionString}`;
 	console.log(data);
-	document.getElementById('surveyResult').innerHTML = `${SITE}/${solutionString}`;
+	//document.getElementById('surveyRs').innerHTML = `${SITE}/${solutionString}`;
 
 
 }
