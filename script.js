@@ -168,7 +168,7 @@ let getSurveyData = () => {
 var survey = new Survey.Model(surveyJSON);
 survey.firstPageIsStarted = true;
 
-$("#surveyContainer").Survey({
+$("#surveyC").Survey({
 	model: survey,
 	css: myCss,
 	onComplete: getSurveyData
